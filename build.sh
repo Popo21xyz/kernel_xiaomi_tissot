@@ -30,7 +30,7 @@ REGENERATE_DEFCONFIG="true" # unset if don't want to regenerate defconfig
 # Costumize
 KERNEL="SiLonT"
 DEVICE="Tissot"
-KERNELTYPE="4.9-testby@DarkzXz"
+KERNELTYPE="4.9-test"
 KERNELNAME="${KERNEL}-${DEVICE}-${KERNELTYPE}-$(TZ=Asia/Jakarta date +%y%m%d-%H%M)"
 TEMPZIPNAME="${KERNELNAME}-unsigned.zip"
 ZIPNAME="${KERNELNAME}.zip"
@@ -38,7 +38,7 @@ ZIPNAME="${KERNELNAME}.zip"
 # Telegram
 CHATIDQ=-1001184769825"
 CHATID="-1001406457858" # Group/channel chatid (use rose/userbot to get it)
-TELEGRAM_TOKEN="1257552334:AAHGyAdnUZH09Jn_lF8rPObvutqJpvGUKYM" # Get from botfather
+TELEGRAM_TOKEN="" # Get from botfather
 
 # Export Telegram.sh
 TELEGRAM_FOLDER="${HOME}"/telegram
