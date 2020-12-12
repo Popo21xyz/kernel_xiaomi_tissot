@@ -10,6 +10,8 @@ jobs:
            git config --global user.name "Popo21xyz"
            git config --global user.email "popo21xyz@gmail.com"
            git clone https://github.com/Popo21xyz/kernel_xiaomi_tissot -b Eleven ~/kernel
+           cd dir_clone
+           bash build.sh
 workflows:
   version: 2.1
   cooking:
