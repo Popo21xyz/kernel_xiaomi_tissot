@@ -12,7 +12,7 @@ ANYKERNEL="${HOME}"/anykernel
 
 # Repo URL
 CLANG_REPO="https://github.com/silont-project/silont-clang.git"
-ANYKERNEL_REPO="https://github.com/Busetdah/AnyKernel3.git"
+ANYKERNEL_REPO="https://github.com/Popo21xyz/AnyKernel3.git"
 ANYKERNEL_BRANCH="tissot"
 
 # Compiler
@@ -30,15 +30,15 @@ REGENERATE_DEFCONFIG="true" # unset if don't want to regenerate defconfig
 # Costumize
 KERNEL="SiLonT"
 DEVICE="Tissot"
-KERNELTYPE="4.9-Q-Rebase"
+KERNELTYPE="4.9-testby@DarkzXz"
 KERNELNAME="${KERNEL}-${DEVICE}-${KERNELTYPE}-$(TZ=Asia/Jakarta date +%y%m%d-%H%M)"
 TEMPZIPNAME="${KERNELNAME}-unsigned.zip"
 ZIPNAME="${KERNELNAME}.zip"
 
 # Telegram
-CHATIDQ="-425671460"
-CHATID="-1001276955142" # Group/channel chatid (use rose/userbot to get it)
-TELEGRAM_TOKEN="" # Get from botfather
+CHATIDQ="-1310272071"
+CHATID="-1001184769825" # Group/channel chatid (use rose/userbot to get it)
+TELEGRAM_TOKEN="1257552334:AAHGyAdnUZH09Jn_lF8rPObvutqJpvGUKYM" # Get from botfather
 
 # Export Telegram.sh
 TELEGRAM_FOLDER="${HOME}"/telegram
