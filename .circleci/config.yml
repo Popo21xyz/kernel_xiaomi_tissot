@@ -9,7 +9,7 @@ jobs:
            apt update && apt install -y default-jre nano flex
            git config --global user.name "Popo21xyz"
            git config --global user.email "popo21xyz@gmail.com"
-           git clone https://github.com/Popo21xyz/kernel_xiaomi_tissot -b eleven ~/kernel
+           git clone https://github.com/Popo21xyz/kernel_xiaomi_tissot -b Eleven ~/kernel
 workflows:
   version: 2.1
   cooking:
